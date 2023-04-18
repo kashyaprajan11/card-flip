@@ -1,5 +1,11 @@
+import CardForm from "./components/CardForm";
+
 function App() {
-  return <div className="App">hello world</div>;
+  return (
+    <>
+      <CardForm />
+    </>
+  );
 }
 
 export default App;
